@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                         String password = passwordController.text.trim();
                         loginController.login(email, password);
                       },
-                      child: Text("Login"));
+                      child: const Text("Login"));
                 }
               },
             ),
